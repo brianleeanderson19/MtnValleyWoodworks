@@ -38,17 +38,19 @@ html {
 }
 
 #buttons {
+  color: red;
   margin: 10px;
   padding: 10px;
 }
 
-.button {
+span {
+  color: blue;
   background-color: gray;
   padding: 10px;
   border: 1px solid transparent;
 }
 
-#button:hover {
+span:hover {
   border: 1px solid white;
 }
 
@@ -65,5 +67,9 @@ html {
 }
 
 #map {
-  margin: 50px 0px 50px 510px;
+  margin: 30px 0px 50px 510px;
+}
+
+a {
+  color: white;
 }
