@@ -1,2 +1,4 @@
-class LivingroomController < ApplicationController
+class LivingroomsController < ApplicationController
+  def index
+  end
 end

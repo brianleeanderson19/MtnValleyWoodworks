@@ -7,6 +7,8 @@ html {
   font-family: 'Raleway', sans-serif;
 }
 
+
+
 #content {
   margin-top: 12%;
   margin-left: auto;
@@ -37,19 +39,10 @@ html {
   margin-left: auto;
 }
 
-#buttons {
-  color: red;
-  margin: 10px;
-  padding: 10px;
-}
-
 span {
-  color: blue;
-  background-color: gray;
-  padding: 10px;
-  border: 1px solid transparent;
+  margin-left: 10px;
+  margin-right: 10px;
 }
-
 span:hover {
   border: 1px solid white;
 }
@@ -67,9 +60,53 @@ span:hover {
 }
 
 #map {
-  margin: 30px 0px 50px 510px;
+  text-align: center;
+  padding: 30px;
 }
 
 a {
   color: white;
+}
+
+body {
+  font-family: 'Rubik Mono One', sans-serif;
+  background-color: transparent;
+}
+
+.sister {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kitchen-title {
+  text-align: center;
+}
+
+.bathroom-title {
+  text-align: center;
+}
+
+.livingroom-title {
+  text-align: center;
+}
+
+.home-link {
+  text-align: center;
+}
+
+.covert-logo {
+  width: 50px;
+  height: 80px;
+  position: relative;
+  bottom: 20px;
+}
+
+.covert-logo-div {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.app-card-container {
+  border-radius: .5rem;
 }
